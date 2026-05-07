@@ -64,4 +64,18 @@ bulguksa-administrative-corpus/
 
 ## 라이선스
 
-- 데이터(텍스트, 메타데이
+- 데이터(텍스트, 메타데이터): Creative Commons Attribution 4.0 (CC BY 4.0)
+- 코드: MIT License
+
+원본 사료 이미지는 본 리포지토리에 포함되지 않으며, 저작권은 
+국립중앙박물관 등 원 소장 기관에 있습니다.
+
+## 연락처
+
+- 저자: 정 송이 (Song-yi jung)
+- 이메일: [학술용 이메일]
+- ORCID: [있으면 추가]
+
+## 업데이트 이력
+
+- 2026-05-07: 리포지토리 초기 생성 (Private)
