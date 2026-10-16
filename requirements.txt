@@ -1,0 +1,19 @@
+# 비교 실험 실행 환경 (2026-10-17 실험 컴퓨터에서 확인)
+# Python 3.13.5
+
+# 2단계 Gemini 호출 (run_experiment.py)
+google-genai==2.28.0          # gemini-3.8-flash 실험 (사고 수준·이미지 해상도 지정)
+google-generativeai==0.8.6    # gemini-2.5-flash 실험 (운영 코드와 같은 구형 SDK)
+python-dotenv==1.1.0          # .env의 API 키 읽기
+pillow==11.1.0                # 2.5-flash 호출 시 이미지 열기
+openpyxl==3.1.5               # 표본목록 읽기, 분석 결과 저장
+
+# 분석 (analyze.py, 종류별_분석.py)
+numpy==2.1.3
+scipy==1.15.3                 # Wilcoxon 부호순위 검정
+Levenshtein==0.27.3           # Levenshtein 유사도
+
+# 1단계 Google Vision (stage1_vision.py, 2026-04-20 운영 코드의 호출부)
+# 실험에서는 다시 실행하지 않고 2026-04-20에 산출한 결과를 사용하였다.
+# 아래는 현재 설치 버전이며, 2026-04-20 처리 당시의 버전과 같은지는 기록이 없다.
+google-cloud-vision==3.13.0
